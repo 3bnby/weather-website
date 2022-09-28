@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit',(event)=>{
     }else{
       messageOne.textContent= data.location
       messageTwo.textContent= 'forecast is : ' + data.forecast.forecast + ' and degree is : ' +
-      data.forecast.deg + ' and chance of rain is : ' +data.forecast.chance_of_rain + '%'
+      data.forecast.deg + ' and chance of rain is : ' +data.forecast.chance_of_rain + '% ' + " the wind speed is : " +data.forecast.wind
     }
     })
 

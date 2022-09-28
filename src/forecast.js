@@ -12,7 +12,7 @@ const forecast =(lat,long,callback)=>{
                   deg:body.current.temperature,
                   forecast:body.current.weather_descriptions[0],
                   chance_of_rain:body.current.precip,
-                
+                wind:body.current.wind_speed
             })
        }
   })
